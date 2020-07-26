@@ -15,7 +15,7 @@ Where malaria is not endemic any more (such as in the United States), health-car
 
 In a non-immune individual, symptoms usually appear 10–15 days after the infective mosquito bite. The first symptoms – fever, headache, and chills – may be mild and difficult to recognize as malaria. If not treated within 24 hours, P. falciparum malaria can progress to severe illness, often leading to death. 
 
-Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% and Recall Score of 92%. This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
+This Project aims to provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
 
 ## 🏁 Technology Stack
 
@@ -49,4 +49,4 @@ python app.py
 
 ## 📜 LICENSE
 
-[MIT](https://github.com/HarshCasper/Malaria-Detection/blob/master/LICENSE)
+[MIT](https://github.com/HakinCodes/Malaria-Detection/blob/master/LICENSE)
