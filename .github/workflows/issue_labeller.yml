@@ -1,0 +1,20 @@
+name: Issue Labeler
+
+on:
+  issues:
+    types: [opened, assigned]
+
+jobs:
+  automate-issues-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: New Issue Created
+        if: github.event_name == 'issue' && github.event.action == 'opened'
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "CH20"
+      - name: Issue Assigned
+        if: github.event_name == 'issue' && github.event.action == 'assigned'
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "Assigned"
