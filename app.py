@@ -2,7 +2,6 @@ from flask import Flask
 from flask import jsonify
 
 app = Flask(__name__)
-
 """@app.route("/")
 def hello():
     return jsonify({'message' : 'Hello!'})
@@ -19,16 +18,16 @@ def landingPage():
 
 @app.route("/form")
 def inputForm():
-    return jsonify({"message": "This form contains only one required input field."})
+    return jsonify(
+        {"message": "This form contains only one required input field."})
 
 
 @app.route("/result")
 def result():
-    return jsonify(
-        {
-            "message": "The Result is either presented as a Malarial Cell or not a Malarial Cell."
-        }
-    )
+    return jsonify({
+        "message":
+        "The Result is either presented as a Malarial Cell or not a Malarial Cell."
+    })
 
 
 if __name__ == "__main__":
