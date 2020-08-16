@@ -2,3 +2,7 @@ Flask==1.0.2
 Flask-Misaka==1.0.0
 Flask-SQLAlchemy==2.3.2
 gunicorn==19.9.0
+numpy==1.19.1
+tensorflow==2.3.0
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
