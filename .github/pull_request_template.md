@@ -17,11 +17,11 @@ Happy Contributing!
 - [ ] I've read the contribution guidelines.
 - [ ] This PR mets all the requirements like Clean Code, proper README and Documentation
 
-## Related Issues or Pull Requests
+### Related Issues or Pull Requests
 
 (Write your answer here.)
 
-# Screenshots (if any)
+### Screenshots (if any)
 
  Original           | Updated
  :--------------------: |:--------------------:
