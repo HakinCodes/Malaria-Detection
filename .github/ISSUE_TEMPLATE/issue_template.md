@@ -21,7 +21,7 @@ labels: "Feature/Bug"
 
 (Write your answer here.)
 
-## Motivation
+### Motivation
 
 (Please outline the motivation for the proposal.)
 
