@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Thanks for submitting your first Issue at Malaria-Detection. :star2: We'll get back to you soon."
+          pr-message: "Thanks for creating your first Pull Request at Malaria-Detection. :star2: We'll review your PR soon."
