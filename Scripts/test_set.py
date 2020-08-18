@@ -11,11 +11,16 @@ target_size = (64, 64)
 samples = 100
 
 
-def create_test_set(parasite_dir=parasite_dir, uninfected_dir=uninfected_dir, samples=samples, target_size=target_size):
+def create_test_set(
+    parasite_dir=parasite_dir,
+    uninfected_dir=uninfected_dir,
+    samples=samples,
+    target_size=target_size,
+):
 
     # creating the directory for the holdout dataset images
-    os.makedirs(r'..\holdout_dataset', exist_ok=True)
-    target_dir = r'C:\Users\navee\Hakin Codes\Malaria-Detection\holdout_dataset'
+    os.makedirs(r"..\holdout_dataset", exist_ok=True)
+    target_dir = r"C:\Users\navee\Hakin Codes\Malaria-Detection\holdout_dataset"
 
     # iterating through the respective directories
     for directory in (parasite_dir, uninfected_dir):
@@ -23,7 +28,7 @@ def create_test_set(parasite_dir=parasite_dir, uninfected_dir=uninfected_dir, sa
         # iterating through a random sample of images from both the classes
         for path in random.sample(os.listdir(directory), samples):
 
-            img_path = directory + '\\' + path
+            img_path = directory + "\\" + path
 
             # checking if the image path contains a file
             if os.path.isfile(img_path):
@@ -36,11 +41,13 @@ def create_test_set(parasite_dir=parasite_dir, uninfected_dir=uninfected_dir, sa
                 # transferred the image from source dir to the target dir
                 shutil.move(img_path, target_dir)
 
-        print(
-            f'Taken 100 samples from {directory} and shifted it to {target_dir}')
+        print(f"Taken 100 samples from {directory} and shifted it to {target_dir}")
 
-    print('Total number of samples in the target directory is {}'.format(len(os.listdir(
-        r'..\holdout_dataset'))))  # printing the total number of images in holdout_dataset folder
+    print(
+        "Total number of samples in the target directory is {}".format(
+            len(os.listdir(r"..\holdout_dataset"))
+        )
+    )  # printing the total number of images in holdout_dataset folder
 
 
 create_test_set()
