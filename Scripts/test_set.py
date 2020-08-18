@@ -1,8 +1,8 @@
-import cv2
-import random
 import os
-import cv2
+import random
 import shutil  # importing the required libraries
+
+import cv2
 
 parasite_dir = r"C:\Users\navee\Hakin Codes\cell_images\Parasitized"
 uninfected_dir = r"C:\Users\navee\Hakin Codes\cell_images\Uninfected"
