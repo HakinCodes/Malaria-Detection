@@ -1,1 +1,8 @@
-alert("Welcome to the page");
+window.addEventListener("load", function(){
+  const loader = document.querySelector(".loader");
+  loader.className += " hidden";
+});
+
+
+
+
