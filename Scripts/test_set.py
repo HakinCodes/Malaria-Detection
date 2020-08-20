@@ -12,10 +12,10 @@ SAMPLES = 100
 
 
 def create_test_set(
-    parasite_dir=PARASITE_DIR,
-    uninfected_dir=UNINFECTED_DIR,
-    samples=SAMPLES,
-    target_size=TARGET_SIZE,
+        parasite_dir=PARASITE_DIR,
+        uninfected_dir=UNINFECTED_DIR,
+        samples=SAMPLES,
+        target_size=TARGET_SIZE,
 ):
     """
     Description:
@@ -52,13 +52,13 @@ def create_test_set(
                 # transferred the image from source dir to the target dir
                 shutil.move(img_path, target_dir)
 
-        print(f"Taken 100 samples from {directory} and shifted it to {target_dir}")
-
-    print(
-        "Total number of samples in the target directory is {}".format(
-            len(os.listdir(r"..\holdout_dataset"))
+        print(
+            f"Taken 100 samples from {directory} and shifted it to {target_dir}"
         )
-    )  # printing the total number of images in holdout_dataset folder
+
+    print("Total number of samples in the target directory is {}".format(
+        len(os.listdir(r"..\holdout_dataset")))
+          )  # printing the total number of images in holdout_dataset folder
 
 
 create_test_set()
