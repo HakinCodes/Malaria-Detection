@@ -1,6 +1,7 @@
 import os
 import random
 import shutil  # importing the required libraries
+
 import cv2
 
 PARASITE_DIR = r"C:\Users\navee\Hakin Codes\cell_images\Parasitized"
@@ -11,10 +12,10 @@ SAMPLES = 100
 
 
 def create_test_set(
-        parasite_dir=PARASITE_DIR,
-        uninfected_dir=UNINFECTED_DIR,
-        samples=SAMPLES,
-        target_size=TARGET_SIZE,
+    parasite_dir=PARASITE_DIR,
+    uninfected_dir=UNINFECTED_DIR,
+    samples=SAMPLES,
+    target_size=TARGET_SIZE,
 ):
     """
     Description:
@@ -57,7 +58,7 @@ def create_test_set(
 
     print("Total number of samples in the target directory is {}".format(
         len(os.listdir(r"..\holdout_dataset")))
-          )  # printing the total number of images in holdout_dataset folder
+    )  # printing the total number of images in holdout_dataset folder
 
 
 create_test_set()
