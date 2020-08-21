@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 #Script to read and save image data.
 
-=======
-# Script to read and save image data.
->>>>>>> 69867e0c886f80dee019a8b0a324aac862aaa028
 import os
 
 import cv2  # to read image
