@@ -1,4 +1,4 @@
-#Script to read and save image data.
+# Script to read and save image data.
 
 import os
 
