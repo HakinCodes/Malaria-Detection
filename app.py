@@ -21,7 +21,6 @@ def result():
 
 
 @app.errorhandler(404)
-
 # inbuilt function which takes error as parameter
 def not_found(e):
 
