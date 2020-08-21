@@ -1,3 +1,5 @@
+#Script to read and save image data.
+
 import os
 from PIL import Image  #for image processing
 import numpy as np   #linear algebra
