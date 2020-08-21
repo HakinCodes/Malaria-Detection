@@ -1,13 +1,13 @@
-#Script to read and save image data.
+# Script to read and save image data.
 
 import os
-from PIL import Image  #for image processing
-import numpy as np   #linear algebra
-import cv2  #to read image
+from PIL import Image  # for image processing
+import numpy as np  # linear algebra
+import cv2  # to read image
 
-DATA = []  #fOR STORING IMAGES
-LABELS = []  #fOR STORING LABELS
-#Give a path where the dataset is located.
+DATA = []  # fOR STORING IMAGES
+LABELS = []  # fOR STORING LABELS
+# Give a path where the dataset is located.
 PARASITIZED = os.listdir("../content/cell_images/cell_images/Parasitized/")
 UNINFECTED = os.listdir("../content/cell_images/cell_images/Uninfected/")
 
@@ -30,8 +30,8 @@ for u in UNINFECTED:
         LABELS.append(1)
     except AttributeError:
         pass
-#DATA contains the RGB value of each image and
-#LABELS is a list containing 0 or 1 based on whether it is parasitised or not.
+# DATA contains the RGB value of each image and
+# LABELS is a list containing 0 or 1 based on whether it is parasitised or not.
 CELLS = np.array(DATA)
 LABELS = np.array(LABELS)
 
@@ -39,6 +39,6 @@ LABELS = np.array(LABELS)
 np.save('Cells', CELLS)
 np.save('Labels', LABELS)
 
-#for loading saved data
+# for loading saved data
 CELLS = np.load("Cells.npy")
 LABELS = np.load("labels.npy")
