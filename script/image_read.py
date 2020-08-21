@@ -1,9 +1,10 @@
 # Script to read and save image data.
 
 import os
-from PIL import Image  # for image processing
-import numpy as np  # linear algebra
+
 import cv2  # to read image
+import numpy as np  # linear algebra
+from PIL import Image  # for image processing
 
 DATA = []  # fOR STORING IMAGES
 LABELS = []  # fOR STORING LABELS
