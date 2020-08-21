@@ -14,8 +14,7 @@ UNINFECTED = os.listdir("../content/cell_images/cell_images/Uninfected/")
 
 for i in PARASITIZED:
     try:
-        image = cv2.imread("../content/cell_images/cell_images/Parasitized/" +
-                           i)
+        image = cv2.imread("../content/cell_images/cell_images/Parasitized/" + i)
         image_from_array = Image.fromarray(image, "RGB")
         size_image = image_from_array.resize((50, 50))
         DATA.append(np.array(size_image))
@@ -25,8 +24,7 @@ for i in PARASITIZED:
 
 for u in UNINFECTED:
     try:
-        image = cv2.imread("../content/cell_images/cell_images/Uninfected/" +
-                           u)
+        image = cv2.imread("../content/cell_images/cell_images/Uninfected/" + u)
         image_from_array = Image.fromarray(image, "RGB")
         size_image = image_from_array.resize((50, 50))
         DATA.append(np.array(size_image))
