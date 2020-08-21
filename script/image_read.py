@@ -1,5 +1,4 @@
 # Script to read and save image data.
-
 import os
 
 import cv2  # to read image
