@@ -12,10 +12,10 @@ SAMPLES = 100
 
 
 def create_test_set(
-    parasite_dir=PARASITE_DIR,
-    uninfected_dir=UNINFECTED_DIR,
-    samples=SAMPLES,
-    target_size=TARGET_SIZE,
+        parasite_dir=PARASITE_DIR,
+        uninfected_dir=UNINFECTED_DIR,
+        samples=SAMPLES,
+        target_size=TARGET_SIZE,
 ):
     """
     Description:
