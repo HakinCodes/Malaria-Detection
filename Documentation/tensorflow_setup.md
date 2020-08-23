@@ -27,7 +27,7 @@ It combines the computational algebra of optimization techniques for easy calcul
 
 **Before installing tensorflow some tools like Anaconda, Python are needed to be installed.**
 
-1. First of all lets download and install Anaconda which is a python distribution service.
+1. First of all let's download and install Anaconda which is a python distribution service.
 
 2. According to your Operating System, Select and download from the provided list of link.
 - [ Windows (64bit) ](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe) 
