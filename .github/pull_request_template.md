@@ -19,7 +19,10 @@ Happy Contributing!
 
 ### Related Issues or Pull Requests
 
-(Write your answer here.)
+Fixes: #[Issue number that will be closed through this PR] 
+<!---
+Example - Fixes: #21 
+-->
 
 ### Screenshots (if any)
 

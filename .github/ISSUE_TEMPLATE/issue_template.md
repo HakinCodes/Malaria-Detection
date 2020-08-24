@@ -9,13 +9,6 @@ labels: "Feature/Bug"
 
 (specify whether it is a bug / new feature / advancement in original)
 
-## Related Issue Number
-
-Fixes: #[Issue number that will be closed through this PR] 
-<!---
-Example - Fixes: #21 
--->
-
 ## Description
 
 (A clear and concise description of what the feature/Bug is.)
