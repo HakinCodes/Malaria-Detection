@@ -1,30 +1,23 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Switch,
-  Route
-} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-const Router = () => (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/about" component={About}/>
-        <Route path="/users" component={Users}/>
-        <Route path="/" component={Home}/>
+const Router = () =>
+    (<BrowserRouter><Switch>
+     <Route path = "/about" component =
+      { About } />
+        <Route path="/users " component={Users}/>
+      < Route path = "/" component = { Home } />
       </Switch>
-    </BrowserRouter>
+     </BrowserRouter>
 );
 
 const Home = () => (
-  <h2>Home</h2>
-);
+  <h2>Home</h2>);
 
-const About = () => (
-  <h2>About</h2>
+const About = () => (<h2>About</h2>
 );
 
 const Users = () => (
-  <h2>Users</h2>
-);
+  <h2>Users</h2>);
 
 export default Router;
