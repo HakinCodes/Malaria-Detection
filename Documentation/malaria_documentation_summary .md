@@ -106,7 +106,7 @@ for i in range(1, len(filenames)):
 plt.show()
 ```
 
-![image.png](/images/parasitized.png)
+![image.png](../Malaria-Detection/Documentation/images/parasitized.png)
 
 <p>The above picture clearly shows that in the 25 cell images, we could see blunt spots which means these cells are parasitized.</p>
 
@@ -129,7 +129,7 @@ for i in range(1, len(filenames_)):
 plt.show()
 ```
 
-![image.png](/images/uninfected.png)
+![image.png](../Malaria-Detection/Documentation/images/uninfected.png)
 
 <p>The above pictures are very clear without any spots in it, which says they are not infected.</p>
 
@@ -146,7 +146,7 @@ para_cell
 plt.imshow(imread(para_cell))
 ```
 
-![image.png](/images/parasitized-image.png)
+![image.png](../Malaria-Detection/Documentation/images/parasitized-image.png)
 
 <p>We can clearly see a purple colored spot in the cell.</p>
 
@@ -163,7 +163,7 @@ uninfected_cell
 plt.imshow(imread(uninfected_cell))
 ```
 
-![image.png](/images/uninfected-image.png)
+![image.png](../Malaria-Detection/Documentation/images/uninfected-image.png)
 
 <p>This image is very clear with no spots in it.</p>
 
@@ -192,7 +192,7 @@ for image_filename in os.listdir('../Malaria_detection/cell_images/Parasitized')
 sns.jointplot(dim1_,dim2_)
 ```
 
-![image.png](/images/joint-plot-parasitized.png)
+![image.png](../Malaria-Detection/Documentation/images/joint-plot-parasitized.png)
 
 <h4>Uninfected Cell Images</h4>
 
@@ -214,7 +214,7 @@ for image_filename in os.listdir('../Malaria_detection/cell_images/Uninfected'):
 sns.jointplot(dim1,dim2)
 ```
 
-![image.png](/images/joint-plot-uninfected.png)
+![image.png](../Malaria-Detection/Documentation/images/joint-plot-uninfected.png)
 
 
 ```python
