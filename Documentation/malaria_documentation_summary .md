@@ -33,7 +33,6 @@
 
 <h2>Importing Libraries</h2>
 
-
 ```python
 import os
 import random
@@ -42,7 +41,7 @@ import random
 import numpy as np
 import pandas as pd
 
-##Imports for Data Visualization 
+##Imports for Data Visualization
 import matplotlib.pyplot as plt
 from matplotlib.image import imread
 import seaborn as sns
@@ -51,7 +50,6 @@ import seaborn as sns
 <h2>Preliminary Data Processing</h2>
 
 <p>To start off, we read in our dataset.</p>
-
 
 ```python
 ##Directory for Parasitized cell images</br>
@@ -63,7 +61,6 @@ uninfected_images_dir = '../Malaria_detection/cell_images/Uninfected'
 
 <h2>Check total number of entries</h2>
 
-
 ```python
 ##lets take a look at the number of images of parasitized cells
 parasitize_images_dir = os.listdir(parasitize_images_dir)
@@ -71,7 +68,6 @@ len(parasitize_images_dir)
 ```
 
 Output : 13780
-
 
 ```python
 ##lets take a look at the number of images of uninfected cells
@@ -90,7 +86,6 @@ Output : 13780
 <p><b>After setting up the dataset, now we are ready to begin EDA(fun part)</b></p>
 
 <p>Code for checking 25 parasitized images</p>
-
 
 ```python
 ##lets see a variety of parasitized cells
@@ -114,7 +109,6 @@ plt.show()
 
 <p>Code for checking 25 uninfected images</p>
 
-
 ```python
 ##lets see a variety of uninfected cells
 filenames_ = random.sample(os.listdir('../Malaria_detection/cell_images/Uninfected'), 26)
@@ -135,12 +129,10 @@ plt.show()
 
 <h3>Writing a Directory of a single parasitized cell & view using imread</h3>
 
-
 ```python
 para_cell = '../Malaria_detection/cell_images/Parasitized/C100P61ThinF_IMG_20150918_144104_cell_163.png'
 para_cell
 ```
-
 
 ```python
 plt.imshow(imread(para_cell))
@@ -152,12 +144,10 @@ plt.imshow(imread(para_cell))
 
 <h3>Writing a Directory of a single uninfected cell & view using imread</h3>
 
-
 ```python
 uninfected_cell = '../Malaria_detection/cell_images/Uninfected/C100P61ThinF_IMG_20150918_144104_cell_25.png'
 uninfected_cell
 ```
-
 
 ```python
 plt.imshow(imread(uninfected_cell))
@@ -171,13 +161,12 @@ plt.imshow(imread(uninfected_cell))
 
 <h4>Parasitized Cell Images</h4>
 
-
 ```python
 dim1_ = []
 dim2_ = []
 
 for image_filename in os.listdir('../Malaria_detection/cell_images/Parasitized'):
-    if 'Thumbs.db' not in image_filename: 
+    if 'Thumbs.db' not in image_filename:
         img = imread('../Malaria_detection/cell_images/Parasitized/' + image_filename)
         d1,d2,colors = img.shape
         dim1_.append(d1)
@@ -187,7 +176,6 @@ for image_filename in os.listdir('../Malaria_detection/cell_images/Parasitized')
 ##we will have to remove them
 ```
 
-
 ```python
 sns.jointplot(dim1_,dim2_)
 ```
@@ -195,7 +183,6 @@ sns.jointplot(dim1_,dim2_)
 ![image.png](../Documentation/images/joint-plot-parasitized.png)
 
 <h4>Uninfected Cell Images</h4>
-
 
 ```python
 dim1 = []
@@ -209,13 +196,11 @@ for image_filename in os.listdir('../Malaria_detection/cell_images/Uninfected'):
         dim2.append(d2)
 ```
 
-
 ```python
 sns.jointplot(dim1,dim2)
 ```
 
 ![image.png](../Documentation/images/joint-plot-uninfected.png)
-
 
 ```python
 
