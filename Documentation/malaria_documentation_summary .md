@@ -4,18 +4,18 @@
 
 <p>Malaria is a life-threatening disease. It’s typically transmitted through the bite of an infected <b>anopheles mosquito</b>. Infected mosquitoes carry the <b>plasmodium parasite</b>. When this mosquito bites you, the parasite is released into your bloodstream. It is considered as an endemic in many parts of the world.</p></n><p>Malaria detection is performed by examining a drop of the patient’s blood, spread out as a “blood smear” (red blood cell) on a microscope slide. This blog focuses on improving malaria detection from such patches segmented from the microscopic images of blood smears by introducing a deep convolutional neural network. Compared to the traditional methods that use tedious hand engineering feature extraction, the proposed method uses deep learning in an end-to-end arrangement that performs both feature extraction and classification directly from the raw segmented patches of the red blood smears.</p>
 
-<h3>RISK FACTOR</h3>
-
-<p>Malaria is commonly associated with poverty and has a major negative effect on economic development. In Africa, it is estimated to result in losses of <b>US$12 billion</b> a year due to increased healthcare costs, lost ability to work, and negative effects on tourism</p>
-
 <h3>SYMPTOMS OF MALARIA</h3>
 
 <p>A malaria infection is generally characterized by the following signs and symptoms:</p><br>
 <ul><li>Fever</li><li>Chills</li><li>Headache</li><li>Nausea and vomiting</li><li>Muscle pain and fatigue</li></ul><p>Other signs and symptoms may include:</p><ul><li>Sweating</li><li>Chest or abdominal pain</li><li>Cough</li></ul>
 
+<h3>RISK FACTOR</h3>
+
+<p>Malaria is commonly associated with poverty and has a major negative effect on economic development. In Africa, it is estimated to result in losses of <b>US$12 billion</b> a year due to increased healthcare costs, lost ability to work, and negative effects on tourism</p>
+
 <h3>How is Malaria diagnosed by pathologists?</h3>
 
-<p>Typically Malaria is diagnosed by microscopic examination of blood cells under the supervision of a pathologist. Red blood cells are examined using a microscope using blood films. The pathologists tries to find evidence of Malaria using past domain knowledge. Typically, when a cell is infected with Malaria one can see distorted cell shapes which are also accompanied by certain blunt spots in the cell.</p>
+<p>Typically Malaria is diagnosed by microscopic examination of blood cells under the supervision of a pathologist. Red blood cells are examined using a microscope using blood films. The pathologists try to find evidence of Malaria using past domain knowledge. Typically, when a cell is infected with Malaria one can see distorted cell shapes which are also accompanied by certain blunt spots in the cell.</p>
 
 <h3>PROBLEM STATEMENT</h3>
 
@@ -25,11 +25,11 @@
 
 <p><b>Our code template shall perform the following steps:</b></p>
 
-<ol><li>Importing Libraries</li><li>Preliminary Data Processing.</li><li>Check total number of entries</li><li>Exploratory Data Analysis (EDA).</li></ol>
+<ol><li>Importing Libraries</li><li>Preliminary Data Processing.</li><li>Check the total number of entries</li><li>Exploratory Data Analysis (EDA).</li></ol>
 
 <h3>Information about the dataset.</h3>
 
-<p>The dataset is downloaded from Kaggle from this link — <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria</a>. The dataset was originally taken from the NIH website and uploaded to a Kaggle repository. The dataset contains 27558 cell images. Out of these 27558 images, we have 13779 cell images which are infected by Malaria and an other 13779 images which are uninfected.
+<p>The dataset is downloaded from Kaggle from this link — <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria</a>. The dataset was originally taken from the NIH website and uploaded to a Kaggle repository. The dataset contains 27558 cell images. Out of these 27558 images, we have 13779 cell images that are infected by Malaria and another 13779 uninfected images.
 
 <h2>Importing Libraries</h2>
 
