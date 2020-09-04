@@ -105,7 +105,8 @@
     z-index:none;
     position: absolute;
     top: 0;
-    max-width:80%
+    max-width:70%;
+    max-height: 50%;
   }
   .bgimage2{
     z-index:none;
