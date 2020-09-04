@@ -13,6 +13,8 @@
   height: 70%;
   }
 .bgimage1{
+  height:660px;
+  width:660px;
   max-height: 90%;
   max-width: 90%;
   z-index: 0;
@@ -83,7 +85,7 @@
 }
 .gradient-button:hover{
   box-shadow: 0 10px 20px rgba(1, 111, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
-  margin: 80px 8px 0px;
+  /* margin: 8px 0px; */
   color: #FFF;
   text-decoration: none;
 }
