@@ -1,0 +1,135 @@
+/* home page */
+.home{
+  padding: 0;
+  margin:0;
+}
+
+/* Home page part1 */
+.part1 {
+  padding: 0;
+  display: flex;
+  font-family: 'Montserrat';
+  font-size: x-large;
+  height: 70%;
+  }
+.bgimage1{
+  max-height: 90%;
+  max-width: 90%;
+  z-index: 0;
+  position: absolute;
+  right: 0;
+}
+.side1{
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.sidetext{
+  margin-top: 40px;
+}
+
+.malaria{
+  font-family : "bunchBlossomsPersonalUse";
+  font-size: 90px;
+}
+
+/* Home page part2 */
+.part2 {
+  padding: 0;
+  display: flex;
+  font-family: 'Montserrat';
+  font-size: xx-large;
+}
+
+.bgimage2{
+  z-index: 0;
+  position: absolute;
+  max-width:100%;
+  height:auto;
+}
+
+.side2{
+  margin-top: 120px;
+}
+
+.text2{
+  margin-top: 40px;
+}
+
+/* Buttons On home page */
+.btn2{
+  width: 270px;
+}
+
+.gradient-button {
+  margin-top: 80px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #FFF;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* width: 200px; */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(2, 255, 221, 0.363), 0 6px 6px rgba(0,0,0,0.23);
+}
+.gradient-button:hover{
+  box-shadow: 0 10px 20px rgba(1, 111, 255, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 80px 8px 0px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.gradient-button-1 {background-image: linear-gradient(to right, #7474BF 0%, #5ad8cc 51%, #7474BF 100%)}
+.gradient-button-1:hover { background-position: right center; }
+
+/* Font for malaria word */
+@font-face {
+  font-family: bunchBlossomsPersonalUse;
+  src: url(bunch_blossoms_personal_use-webfont.woff);
+}
+
+/* Mobile View of home page */
+@media screen and (max-width: 800px) {
+  .bgimage1{
+    z-index:none;
+    position: absolute;
+    top: 0;
+    max-width:80%
+  }
+  .bgimage2{
+    z-index:none;
+    position: absolute;
+    bottom: 0;
+    max-width:100%
+  }
+  .side2{
+    margin-bottom: 350px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .side1{
+    margin-top: 300px;
+    margin-left: 0;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .part1{
+    height: auto;
+  }
+  .malaria{
+    font-size: 50px;
+  }
+  .sidetext{
+    margin: 0;
+  }
+  
+}

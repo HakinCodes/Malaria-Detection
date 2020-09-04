@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Homepage from '../pages/Homepage';
 
 const Router = () => (
     <BrowserRouter>
@@ -16,7 +17,7 @@ const Router = () => (
 );
 
 const Home = () => (
-  <h2>Home Page</h2>
+  <Homepage />
 );
 
 const About = () => (
