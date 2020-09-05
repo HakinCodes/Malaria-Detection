@@ -11,13 +11,9 @@ const Router = () => (
       <Switch>
         <Route path="/about" component={About}/>
         <Route path="/demo" component={Demo}/>
-        <Route path="/" component={Home}/>
+        <Route path="/" component={Homepage}/>
       </Switch>
     </BrowserRouter>
-);
-
-const Home = () => (
-  <Homepage />
 );
 
 const About = () => (
