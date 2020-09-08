@@ -1,0 +1,49 @@
+body{
+    background-color:  #89ebe2 !important;
+}
+#logo{
+    height:90px;
+    width:90px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#imageBtn{
+    background-color:  #8c52ff;
+}
+h1 {
+    font-family: cursive!important;
+    font-size: 100px !important;
+    padding-top:80px;
+    padding-bottom:10px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    padding-bottom:30px;
+}
+#asset1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#asset2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#asset3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#imageBtn{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    height:50px;
+    box-shadow: #8c52ff;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
