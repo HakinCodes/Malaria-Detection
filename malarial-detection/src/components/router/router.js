@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/about" component={About} />
-      <Route path="/users " component={Users} />
-      <Route path="/" component={Home} />
+      <Route path="/about.js" component={About} />
+      <Route path="/users.js " component={Users} />
+      <Route path="/Homepage.js" component={Home} />
     </Switch>
   </BrowserRouter>
 );
