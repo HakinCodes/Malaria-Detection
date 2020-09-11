@@ -1,0 +1,144 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#ffffff;
+    font-family: sans-serif;
+}
+
+#img1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    max-width: 1000px;
+    z-index: -1;
+}
+#img2{
+    position:absolute;
+    top:-25px;
+    left:45vw;
+    
+}
+#logo{
+    display: inline-block;
+    width:70vw;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    margin:23px;
+    padding:23px;
+    /* justify-content: flex-start;  */
+}
+#navbar ul{
+    display: flex;
+    justify-content:flex-end;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding:0px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#asset3{
+    position: absolute;
+    left:110px;
+}
+#asset4{
+    position:absolute;
+    left:110px;
+    top:500px;
+    width: 600px;
+}
+#asset5{
+    position: absolute;
+    left:778px;
+    top:300px;
+}
+#asset6{
+    position: absolute;
+    top:790px;
+    left:110px;
+}
+#asset7{
+    position: absolute;
+    top:850px;
+    left:1050px;   
+}
+#asset8{
+    position: absolute;
+    top:890px;
+    left:1720px;   
+    /* left:1700px; */
+    
+}
+#asset9{
+    position:absolute;
+    top:1110px;
+    left:150px;
+}
+
+#asset10{
+    position:absolute;
+    top:1350px;
+    left:0px;   
+}
+#asset11{
+    position:absolute;
+    top:1300px;
+    left:850px;  
+}
+#asset12{
+    position:absolute;
+    top:1800px;
+    left:1000px; 
+}
+#asset13{
+    position:absolute;
+    top:1820px;
+    left:1560px; 
+}
+#path1{
+    position: absolute;
+    top:2165px;
+    left:0px;
+    width: 100%;
+    bottom:0;
+    overflow: hidden;
+    /* max-width: 98.9vw; */
+}
+
+#path2{
+    position: absolute;
+    top:2108px;
+    /* left: 20px; */
+    left:25px; 
+    width: 100%;
+    bottom:0;
+    overflow: hidden;
+}
+#path3{
+    position: absolute;
+    top:2108px;
+    /* right:0px; */
+    left:0px;
+    width: 100%;
+    overflow: hidden;
+}
+#X{
+    position: absolute;
+    top:2420px;
+    left:1320px; 
+}
