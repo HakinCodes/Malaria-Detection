@@ -24,7 +24,7 @@ body{
     position:absolute;
     top:-25px;
     left:45vw;
-    
+
 }
 #logo{
     display: inline-block;
@@ -75,14 +75,14 @@ body{
 #asset7{
     position: absolute;
     top:850px;
-    left:1050px;   
+    left:1050px;
 }
 #asset8{
     position: absolute;
     top:890px;
-    left:1720px;   
+    left:1720px;
     /* left:1700px; */
-    
+
 }
 #asset9{
     position:absolute;
@@ -93,22 +93,22 @@ body{
 #asset10{
     position:absolute;
     top:1350px;
-    left:0px;   
+    left:0px;
 }
 #asset11{
     position:absolute;
     top:1300px;
-    left:850px;  
+    left:850px;
 }
 #asset12{
     position:absolute;
     top:1800px;
-    left:1000px; 
+    left:1000px;
 }
 #asset13{
     position:absolute;
     top:1820px;
-    left:1560px; 
+    left:1560px;
 }
 #path1{
     position: absolute;
@@ -124,7 +124,7 @@ body{
     position: absolute;
     top:2108px;
     /* left: 20px; */
-    left:25px; 
+    left:25px;
     width: 100%;
     bottom:0;
     overflow: hidden;
@@ -140,5 +140,5 @@ body{
 #X{
     position: absolute;
     top:2420px;
-    left:1320px; 
+    left:1320px;
 }
