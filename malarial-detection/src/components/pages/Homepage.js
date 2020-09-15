@@ -12,7 +12,8 @@ function Homepage() {
     <div className="home">
       {/* home page part1 */}
       <div className="d-flex part1 col-md-12">
-        <div style={{ textAlign: "right",}}>
+        <div style={{
+    textAlign: "right",}}>
           <Image src={logo} alt="Logo" className="bgimage1" />
         </div>
         <div className="side1 col-md-6 float-left">
@@ -30,7 +31,8 @@ function Homepage() {
 
       {/* home page part2 */}
       <div className="d-flex part2 col-md-12">
-        <div style={{ textAlign: "left" }}>
+        <div style={{
+    textAlign: "left" }}>
           <Image src={logo2} alt="Logo2" className="bgimage2" />
         </div>
         <div className="side2 col-md-6 float-right ml-auto">
