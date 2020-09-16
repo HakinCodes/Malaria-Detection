@@ -40,20 +40,31 @@ This Project aims to provides a handy tool to utilize the power of Machine Learn
 2. Clone the Repo by going to your local Git Client and pushing in the command: 
 
 ```sh
-https://github.com/HarshCasper/Malaria-Detection.git
+git clone https://github.com/HarshCasper/Malaria-Detection.git
 ```
 
-3. Install the Packages: 
+3. Create a virtual environment:
+```sh
+python3 -m venv env
+```
+
+4. Activate the virtual environment:
+```sh
+env\Scripts\activate (on windows)
+source env/bin/activate (on Mac)
+```
+
+5. Install the Packages: 
 ```sh
 pip install -r requirements.txt
 ```
 
-4. At last, push in the command:
+6. At last, push in the command:
 ```sh
 python app.py
 ```
 
-5. Go to ` http://127.0.0.1:5000/` and enjoy the application.
+7. Go to ` http://127.0.0.1:5000/` and enjoy the application.
 
 ## 📜 LICENSE
 
