@@ -1,11 +1,14 @@
-# Detecting Malaria using Deep Learning 🦟�
+# Detecting Malaria using Deep Learning 🦟�
 
 <p align="center">
   <a href="https://github.com/HarshCasper/Malaria-Detection">
     <img src="https://pngimage.net/wp-content/uploads/2018/06/malaria-in-png-1.png" alt="Logo" width="150" height="150">
   </a>
 
-Contributor's Hack 2020 is a program that helps students grow with **OPEN SOURCE**. This initiative by **HakinCodes** provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects and opportunity to interact with the mentors and the Organizing Team.
+Contributor's Hack 2020 is a program that helps students grow with **OPEN
+SOURCE**. This initiative by **HakinCodes** provides you the best platform to
+improve your skills and abilities by contributing to vast variety of OPEN SOURCE
+Projects and opportunity to interact with the mentors and the Organizing Team.
 
 <p align="center">
   <a href="https://hakincodes.tech/">
