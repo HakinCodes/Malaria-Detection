@@ -13,6 +13,6 @@ jobs:
         days-before-stale: 7
         days-before-close: -1
         stale-issue-label: 'Stale'
-        exempt-issue-labels: 'Assigned,Announcement,Pinned'
+        exempt-issue-labels: 'Announcement,Pinned'
         remove-stale-when-updated: true
         
