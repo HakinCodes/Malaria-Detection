@@ -12,7 +12,7 @@ classes = {0: "Parasitized", 1: "Uninfected"}
 
 
 def predict(
-    path,
+        path,
 ):  # Method for predicting whether the image is of parasitized cell or an uninfected cell
     img = cv2.imread(path)
     img = cv2.resize(img, (50, 50))
@@ -23,7 +23,8 @@ def predict(
     index = prd.argmax()  # Selecting Best Estimate
     messagebox.showinfo(
         "Result",
-        "This cell is {} with {}% certainty.".format(classes[index], certainty),
+        "This cell is {} with {}% certainty.".format(classes[index],
+                                                     certainty),
     )
 
 
