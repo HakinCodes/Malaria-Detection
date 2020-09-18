@@ -1,5 +1,6 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog
+from tkinter import messagebox
 
 import cv2
 import numpy as np
