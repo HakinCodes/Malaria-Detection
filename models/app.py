@@ -1,10 +1,9 @@
+import tkinter as tk
+from tkinter import filedialog, messagebox
+
 import cv2
 import numpy as np
 from keras.models import load_model
-import tkinter as tk
-from tkinter import filedialog
-from tkinter import messagebox
-
 
 model = load_model("CNN.h5")
 
