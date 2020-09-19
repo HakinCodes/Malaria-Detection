@@ -12,10 +12,4 @@ jobs:
           issue-message: "Thanks for submitting your first Issue at Malaria-Detection. :star2: We'll get back to you soon."
           pr-message: "Thanks for creating your first Pull Request at Malaria-Detection. :star2: We'll review your PR soon."
     
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Run Tests
-        run: |
-          python -m pytest
+
