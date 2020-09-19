@@ -12,11 +12,7 @@ function Homepage() {
     <div className="home">
       {/* home page part1 */}
       <div className="d-flex part1 col-md-12">
-        <div
-          style={{
-            textAlign: "right",
-          }}
-        >
+        <div style={{ textAlign: "right",}}>
           <Image src={logo} alt="Logo" className="bgimage1" />
         </div>
         <div className="side1 col-md-6 float-left">
