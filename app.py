@@ -1,10 +1,11 @@
-from flask import Flask, render_template, url_for, request, redirect
-import numpy as np
-import tensorflow as tf
-from keras.models import load_model
 import re
-from keras.preprocessing import image
+
+import numpy as np
 import skimage
+import tensorflow as tf
+from flask import Flask, redirect, render_template, request, url_for
+from keras.models import load_model
+from keras.preprocessing import image
 from skimage import transform
 
 app = Flask(__name__)
