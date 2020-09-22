@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Form page</title>
 	<link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/icon.png')}}">
 	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 </head>
+
 <body>
 	<div class="container">
 		<h2>Welcome to the form page.</h2>
+		<form action="http://localhost:5000/result" method="POST">
+			<div>
+				<label for="image"><h3><b>Select image:</b></h3></label><br>
+				<input type="file" id="image" name="image" accept="image">
+				<br><br><br>	
+			</div>
+			<input type="submit" value="submit">
+		</form><br><br>
 		<a href="/result">Go to next page.</a>
 	</div>
 
-<script src="static/js/script.js"></script>
+	<script src="static/js/script.js"></script>
 </body>
 
 </html>
