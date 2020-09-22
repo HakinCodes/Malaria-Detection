@@ -4,6 +4,7 @@ import tensorflow as tf
 from keras.models import load_model
 import re
 from keras.preprocessing import image
+import skimage
 from skimage import transform
 
 app = Flask(__name__)
