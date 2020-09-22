@@ -9,7 +9,7 @@ from skimage import transform
 
 app = Flask(__name__)
 
-model = load_model('models/CNN.h5')
+model = load_model("models/CNN.h5")
 graph = tf.get_default_graph()
 
 
@@ -37,21 +37,23 @@ def landingPage():
 
 @app.route("/form")
 def inputForm():
-    return render_template('form.html')
+    return render_template("form.html")
 
 
-@app.route("/result", methods=['GET', 'POST'])
+@app.route("/result", methods=["GET", "POST"])
 def result():
-    if request.method == 'POST':
-        image = request.form['image']
+    if request.method == "POST":
+        image = request.form["image"]
         img_array = image_preprocess(image)
         result = int(np.argmax(ValuePredictor(img_array)))
         if result == 1:
-            pred = "This cell is likely to be Uninfected and free from Malarial Parasite"
+            pred = (
+                "This cell is likely to be Uninfected and free from Malarial Parasite"
+            )
         else:
             pred = "This cell is likely to be infected with Malarial Parsite"
         print(pred)
-        return render_template('result.html', image=image)
+        return render_template("result.html", image=image)
 
 
 @app.errorhandler(404)
