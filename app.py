@@ -13,7 +13,7 @@ graph = tf.get_default_graph()
 def ValuePredictor(np_arr):   
     global graph
     with graph.as_default():
-        result = loaded_model.predict(np_arr)
+        result = model.predict(np_arr)
     return result[0]
 
 def image_preprocess(img):
