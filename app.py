@@ -8,7 +8,8 @@ import skimage
 from skimage import transform
 
 app = Flask(__name__)
-model = load_model('CNN.h5')
+
+model = load_model('models/CNN.h5')
 graph = tf.get_default_graph()
 
 def ValuePredictor(np_arr):   
@@ -25,7 +26,6 @@ def image_preprocess(img):
   image_array /= 255
   image_array = np.expand_dims(image_array, axis = 0)
   return image_array
-
 
 @app.route("/")
 def landingPage():

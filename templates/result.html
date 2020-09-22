@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Result page</title>
 	<link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/icon.png')}}">
 	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 </head>
-
 <body>
 	<div class="container">
 		<h2>Welcome to the results page.</h2>
 		<p>
-		
 			Seleted image: {{ image }}
-		
 		</p>
-
-		<div class="bg-info" >
+		<div class="bg-info">
 			<h2>Results: </h2>
 		</div>
 		<br><br>
 		<a href="/">Go back to landing page.</a>
 	</div>
-
 	<script src="static/js/script.js"></script>
 </body>
-
 </html>
