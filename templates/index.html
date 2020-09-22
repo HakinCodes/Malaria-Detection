@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>Landing page</title>
+	<link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/icon.png')}}">
 	<link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 	<div class="loader">
-        <img src="static/images/splash.gif" />
+        <img src="{{url_for('static', filename='images/splash.gif')}}" />
     </div>
 	<div class="container">
 		<h2>Welcome to the landing page.</h2>

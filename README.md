@@ -15,7 +15,7 @@ Contributor's Hack 2020 is a program that helps students grow with **OPEN SOURCE
 
 ## 📌 Introduction
 
-This Machine Learning Web Application utilizes a Two-Layered Convolutional Neural Network to process the Cell Images and predict if they are Malarial with an accuracy of nearly 95%. The [Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria) to process the Deep Learning Algorithm is taken from the official US National Library of Medicine's NIH Website which is a repository of segmented cells from the thin blood smear slide images from the Malaria Screener research activity.
+This Machine Learning Web Application utilizes a Two-Layered Convolutional Neural Network to process the Cell Images and predict if they are Malarial with an accuracy of nearly 95%. The [Dataset](https://www.dropbox.com/s/f20w7sqvxvl0p68/malaria-dataset.zip) to process the Deep Learning Algorithm is taken from the official US National Library of Medicine's NIH Website which is a repository of segmented cells from the thin blood smear slide images from the Malaria Screener research activity.
 
 ## 🎯 Purpose of the Project
 
