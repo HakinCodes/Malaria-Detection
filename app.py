@@ -3,7 +3,11 @@ import re
 import numpy as np
 import skimage
 import tensorflow as tf
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask
+from flask import redirect
+from flask import render_template
+from flask import request
+from flask import url_for
 from keras.models import load_model
 from keras.preprocessing import image
 from skimage import transform
