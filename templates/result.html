@@ -3,13 +3,30 @@
 <head>
 	<title>Result page</title>
 	<link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/icon.png')}}">
-	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style_result.css')}}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 </head>
-<body>
-	<div class="container">
-		<h2>Welcome to the result page.</h2>
-		<a href="/">Go back to landing page.</a>
-	</div>
+<body >
+
+<!--		<h2>Welcome to the result page.</h2>-->
+<!--		<a href="/">Go back to landing page.</a>-->
+
+ <img id="logo" src="{{url_for('static', filename='images/logo.png')}}">
+ <img id="heading" src="{{url_for('static', filename='images/result4.png')}}">
+<!--    <h1><span> Result </span></h1>-->
+<button  type="button" class="imageBtn"><b>Maleria Cell</b></button>
+<button  type="button" class="imageBtn"><b>Not Maleria Cell</b></button>
+    <img id="result1" src="{{url_for('static', filename='images/result1.png')}}">
+    <img id="result2" src="{{url_for('static', filename='images/result2.png')}}">
+    <img id="result3" src="{{url_for('static', filename='images/result3.png')}}">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
 
 <script src="static/js/script.js"></script>
 </body>
