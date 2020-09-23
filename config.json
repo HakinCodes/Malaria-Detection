@@ -1,12 +1,10 @@
 {
-  "params":
-  {
-    "project_admin_name" : "HARSH BARDHAN MISHRA",
-    "1_mentor_name" : "Vishnu Varthan Rao",
-    "2_mentor_name" : "Sarthak kundra",
-    "3_mentor_name" : "Balaka Biswas",
-    "4_mentor_name" : "Bhadresh Savani",
-    "5_mentor_name" : "Abdul"
-    
-   }
+    "params": {
+        "project_admin_name": "HARSH BARDHAN MISHRA",
+        "1_mentor_name": "Vishnu Varthan Rao",
+        "2_mentor_name": "Sarthak kundra",
+        "3_mentor_name": "Balaka Biswas",
+        "4_mentor_name": "Bhadresh Savani",
+        "5_mentor_name": "Abdul",
+    }
 }
