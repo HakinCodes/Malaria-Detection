@@ -1,6 +1,11 @@
 from flask import Flask
 from flask import jsonify
 from flask import render_template
+import json
+
+with open("config.json",'r') as c:
+    params=json.load(c)['params']
+
 
 app = Flask(__name__)
 
@@ -19,6 +24,9 @@ def inputForm():
 def result():
     return render_template("result.html")
 
+@app.route("/team")
+def team():
+    return render_template("team.html",params=params)
 
 @app.errorhandler(404)
 # inbuilt function which takes error as parameter
