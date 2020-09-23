@@ -4,9 +4,11 @@ jinja2==2.11.2
 Flask-SQLAlchemy==2.4.4
 gunicorn==20.0.4
 numpy==1.19.1
+tensorflow==2.3.0
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+pip==20.2.2
 wheel==0.34.2
 setuptools==46.1.3
 psycopg2==2.8.5
-Pillow==6.0.0
-opencv-python==4.4.0.42
-pytest== 6.0.2
+
