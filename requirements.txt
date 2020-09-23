@@ -14,3 +14,9 @@ psycopg2==2.8.5
 Pillow==6.0.0
 opencv-python==4.4.0.42
 pytest== 6.0.2
+json5==0.9.5
+jsondiff==1.1.2
+jsonpatch==1.26
+jsonpickle==1.4.1
+jsonpointer==2.0
+jsonschema==3.2.0
