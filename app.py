@@ -6,7 +6,6 @@ from flask import render_template
 
 app = Flask(__name__)
 
-
 with open("config.json", "r") as c:
     params = json.load(c)["params"]
 
