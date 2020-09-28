@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/team.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1>Project Admin</h1>
+    <div class="our_team">
+        <div class="team_member">
+          <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/0.jpg')}}" alt="" />
+
+            <div class="social_media">
+               <a href="{{params['project_admin_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['project_admin_linkedin_url']}}" target="_blank">
+               <div class="twitter item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['project_admin_name']}}</h3>
+
+        </div>
+    </div>
+</div>
+
+<div class="mentors_part">
+<div class="wrapper">
+    <h1>Mentors</h1>
+    <div class="our_team">
+        <div class="team_member">
+          <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/1.jpg')}}" alt="" />
+
+            <div class="social_media">
+               <a href="{{params['1_mentor_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['1_mentor_linkedin_url']}}" target="_blank">
+               <div class="linkedin item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['1_mentor_name']}}</h3>
+
+        </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/2.jpg')}}" alt="" />
+             <div class="social_media">
+               <a href="{{params['2_mentor_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['2_mentor_linkedin_url']}}" target="_blank">
+               <div class="linkedin item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['2_mentor_name']}}</h3>
+
+      </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/3.jpg')}}" alt="" />
+             <div class="social_media">
+               <a href="{{params['3_mentor_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['3_mentor_linkedin_url']}}" target="_blank">
+               <div class="linkedin item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['3_mentor_name']}}</h3>
+
+      </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/4.jpg')}}" alt="" />
+             <div class="social_media">
+               <a href="{{params['4_mentor_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['4_mentor_linkedin_url']}}" target="_blank">
+               <div class="linkedin item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['4_mentor_name']}}</h3>
+
+      </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img class="mx-auto rounded-circle" src="{{url_for('static', filename='img/team/5.jpg')}}" alt="" />
+             <div class="social_media">
+               <a href="{{params['5_mentor_github_url']}}" target="_blank">
+               <div class="github item"><i class="fab fa-github"></i></div></a>
+               <a href="{{params['5_mentor_linkedin_url']}}" target="_blank">
+               <div class="linkedin item"><i class="fab fa-linkedin"></i></div></a>
+             </div>
+          </div>
+          <h3>{{params['5_mentor_name']}}</h3>
+
+      </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

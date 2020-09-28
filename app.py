@@ -1,8 +1,13 @@
+import json
+
 from flask import Flask
 from flask import jsonify
 from flask import render_template
 
 app = Flask(__name__)
+
+with open("config.json", "r") as c:
+    params = json.load(c)["params"]
 
 
 @app.route("/")
@@ -18,6 +23,11 @@ def inputForm():
 @app.route("/result")
 def result():
     return render_template("result.html")
+
+
+@app.route("/team")
+def team():
+    return render_template("team.html", params=params)
 
 
 @app.errorhandler(404)
