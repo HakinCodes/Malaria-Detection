@@ -1,0 +1,65 @@
+body{
+    background-color: #9d00e6 !important;
+}
+
+#logo{
+    height:90px;
+    width:90px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+h1 {
+   font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px !important;
+    padding-top:20px;
+    text-align: center;
+}
+#heading{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35% ;
+}
+h4 {
+    text-align: center;
+    padding-bottom:30px;
+}
+
+#result1{
+    position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+	max-width:100%
+	height:auto;
+}
+#result3{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	max-width:100%
+	height:auto;
+}
+#result2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.imageBtn{
+
+  background-color: #30c8dd;
+  border-color: #42a5de;
+  color: black;
+  padding: 17px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20%;
+  margin-top:7%;
+  margin-right:auto;
+  font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
