@@ -15,7 +15,7 @@ Happy Contributing!
 ### Checklist
 
 - [ ] I've read the contribution guidelines.
-- [ ] This PR mets all the requirements like Clean Code, proper README and Documentation
+- [ ] This PR meets all the requirements like Clean Code, proper README and Documentation.
 
 ### Related Issues or Pull Requests
 
