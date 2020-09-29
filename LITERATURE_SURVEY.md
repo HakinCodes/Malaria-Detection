@@ -106,7 +106,7 @@ This table compares the performace of all the three models and their upgradation
 
 <img src="https://miro.medium.com/max/2600/1*X_Mh854bmKovWBuLX_an2g.png">
 
-:small_blue_diamond: The trend in the computer vision is to make deeper and more complicated network to achieve **higher accuracy**. However, deeper networks come with the tradeoff of size and speed. In real applications such as an autonomous vehicle or robotic visions, the object detection task must be able to be done on the computationally limited platform.
+:heavy_check_mark: **Conclusion**: The trend in the computer vision is to make deeper and more complicated network to achieve **higher accuracy**. However, deeper networks come with the tradeoff of size and speed. In real applications such as an autonomous vehicle or robotic visions, the object detection task must be able to be done on the computationally limited platform.
 
 
 
