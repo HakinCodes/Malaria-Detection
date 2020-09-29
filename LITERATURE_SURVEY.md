@@ -12,6 +12,7 @@
   - [ResNet](#resnet)
   - [Inception v3](#inception-v3)
 - [Comparative Case-Study of VGG16, ResNet and Inception v3 models](#comparative-case-study-of-vgg16-resnet-and-inception-v3-models)
+- [Conclusion](#conclusion)
 
 ## Abstract
 
@@ -106,7 +107,8 @@ This table compares the performace of all the three models and their upgradation
 
 <img src="https://miro.medium.com/max/2600/1*X_Mh854bmKovWBuLX_an2g.png">
 
-:heavy_check_mark: **Conclusion**: The trend in the computer vision is to make deeper and more complicated network to achieve **higher accuracy**. However, deeper networks come with the tradeoff of size and speed. In real applications such as an autonomous vehicle or robotic visions, the object detection task must be able to be done on the computationally limited platform.
+## Conclusion
+:heavy_check_mark: The trend in the computer vision is to make deeper and more complicated network to achieve **higher accuracy**. However, deeper networks come with the tradeoff of size and speed. In real applications such as an autonomous vehicle or robotic visions, the object detection task must be able to be done on the computationally limited platform.
 
 
 
