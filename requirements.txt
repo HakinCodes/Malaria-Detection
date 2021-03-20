@@ -1,6 +1,6 @@
 Flask==1.1.2
 Flask-Misaka==1.0.0
-jinja2==2.11.2
+jinja2==2.11.3
 Flask-SQLAlchemy==2.4.4
 gunicorn==20.0.4
 numpy==1.19.1
