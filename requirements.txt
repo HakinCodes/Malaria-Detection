@@ -11,6 +11,6 @@ pip==20.2.2
 wheel==0.34.2
 setuptools==46.1.3
 psycopg2==2.8.5
-Pillow==6.0.0
+Pillow==8.2.0
 opencv-python==4.4.0.42
 pytest== 6.0.2
